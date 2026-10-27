@@ -1,0 +1,12 @@
+{
+  "name": "clinic-management-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "dev:admin": "npm run dev --workspace=@clinic/admin",
+    "dev:staff": "npm run dev --workspace=@clinic/staff",
+    "dev:website": "npm run dev --workspace=@clinic/website"
+  },
+  "license": "ISC"
+}
